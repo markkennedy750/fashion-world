@@ -95,9 +95,9 @@ const Footer = () => {
       <Left>
         <Logo>KENNY.</Logo>
         <Desc>
-          This is a simple MERN Stack project built with syled components and
+          This is a simple MERN Stack project built with styled components and
           Material UI it also contains Admin Dashboard interested to know more
-          about the project you can contact me
+          about the project you can contact me via email
         </Desc>
 
         <SocialContainer>
