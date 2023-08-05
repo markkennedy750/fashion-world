@@ -135,22 +135,22 @@ const Product = () => {
       try {
         const res = await publicRequest.get("/products/find/" + id);
         setProduct(res.data);
-      } catch (err) {}
+      } catch {}
     };
     getProduct();
   }, [id]);
 
   const handleQuantity = (type) => {
-    if (type === "desc") {
+    if (type === "dec") {
       quantity > 1 && setQuantity(quantity - 1);
     } else {
       setQuantity(quantity + 1);
     }
   };
-
   const handleClick = () => {
-    //Update Cart
-    dispatch(addProduct({ ...product, quantity, color, size }));
+    dispatch(
+      addProduct({ ...product, quantity, color, size })
+    );
   };
 
   return (
