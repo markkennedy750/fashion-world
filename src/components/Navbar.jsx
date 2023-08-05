@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { AiOutlineSearch } from "react-icons/ai";
 import Badge from "@mui/material/Badge";
-import MailIcon from "@mui/icons-material/Mail";
+// import MailIcon from "@mui/icons-material/Mail";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { mobile } from "../responsive";
-import { useSelector } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom/cjs/react-router-dom";
 
 const Container = styled.div`
